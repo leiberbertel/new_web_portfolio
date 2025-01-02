@@ -30,7 +30,7 @@ body {
 }
 
 h1, h2, h3, p, li {
-  font-family: Acorn-Bold;
+  font-family: Acorn-Bold, sans-serif;
 }
 
 @font-face {
@@ -39,7 +39,7 @@ h1, h2, h3, p, li {
 }
 
 .montserrat {
-  font-family: Montserrat-Medium;
+  font-family: Montserrat-Medium, sans-serif;
 }
 
 .title {

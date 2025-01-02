@@ -30,8 +30,7 @@ function Contact() {
         </div>
         <div className="flex flex-col gap-8 py-16 w-full px-5">
           <label className="flex flex-col montserrat font-bold">
-            Email:
-            <input
+            Email: <input
               type="email"
               name="email"
               placeholder="john@domain.com"
@@ -39,8 +38,7 @@ function Contact() {
             />
           </label>
           <label className="flex flex-col montserrat font-bold">
-            Message:
-            <textarea
+            Message: <textarea
               name="message"
               placeholder="Type your query here..."
               className="w-full h-[100px] py-3 px-2 text-black rounded-md"
@@ -79,8 +77,7 @@ function Contact() {
         </div>
         <div className="flex flex-col gap-8 py-16 w-full px-5">
           <label className="flex flex-col montserrat font-bold">
-            Email:
-            <input
+            Email: <input
               type="email"
               name="email"
               placeholder="john@domain.com"
@@ -88,8 +85,7 @@ function Contact() {
             />
           </label>
           <label className="flex flex-col montserrat font-bold">
-            Message:
-            <textarea
+            Message: <textarea
               name="message"
               placeholder="Type your query here..."
               className="w-full h-[100px] py-3 px-2 text-black rounded-md"

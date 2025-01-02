@@ -39,8 +39,8 @@ function Footer() {
         </ul>
         <ul className='flex flex-col gap-1'>
           <li className='title'>Contact</li>
-          <li className='cursor-pointer' onClick={() => setContactState(true)}>
-            Message
+          <li className='cursor-pointer'>
+            <button onClick={() => setContactState(true)}>Message</button>
           </li>
         </ul>
       </div>
@@ -81,8 +81,8 @@ function Footer() {
         </ul>
         <ul className='flex flex-col gap-1'>
           <li className='title'>Contact</li>
-          <li className='cursor-pointer' onClick={() => setContactState(true)}>
-            Message
+          <li className='cursor-pointer'>
+            <button onClick={() => setContactState(true)}>Message</button>
           </li>
         </ul>
       </div>
