@@ -61,7 +61,7 @@ function Contact() {
             <h2 className="acorn-bold text-xl">Ask me a question.</h2>
           </div>
         </div>
-        <div className="flex flex-col gap-8 py-16 w-full px-5">
+        <div className="flex flex-col gap-8 py-12 w-full px-5">
           <label className="flex flex-col montserrat font-bold">
             Email:{" "}
             <input
@@ -118,7 +118,7 @@ function Contact() {
             <h2 className="acorn-bold text-xl">Ask me a question.</h2>
           </div>
         </div>
-        <div className="flex flex-col gap-8 py-16 w-full px-5">
+        <div className="flex flex-col gap-8 py-12 w-full px-5">
           <label className="flex flex-col montserrat font-bold">
             Email:{" "}
             <input
