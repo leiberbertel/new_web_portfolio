@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { useValueStore } from "@/store/valueStore";
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 import { Seconds } from "@/utils/Constants";
 
 function Contact() {
-
-  const {setContactState} = useValueStore((state) => ({
+  const { setContactState } = useValueStore((state) => ({
     setContactState: state.setContactState,
-  }))
+  }));
 
   const [formData, setFormData] = useState({
     email: "",
@@ -64,7 +63,8 @@ function Contact() {
         </div>
         <div className="flex flex-col gap-8 py-16 w-full px-5">
           <label className="flex flex-col montserrat font-bold">
-            Email: <input
+            Email:{" "}
+            <input
               type="email"
               name="email"
               placeholder="john@domain.com"
@@ -74,7 +74,8 @@ function Contact() {
             />
           </label>
           <label className="flex flex-col montserrat font-bold">
-            Message: <textarea
+            Message:{" "}
+            <textarea
               name="message"
               placeholder="Type your query here..."
               className="w-full h-[100px] py-3 px-2 text-black rounded-md"
@@ -89,7 +90,11 @@ function Contact() {
             >
               Send my message
             </button>
-            <button type="button" onClick={() => setContactState(false)} className="bg-[#DB3232] py-3 px-5 rounded-md montserrat font-bold w-[30%]">
+            <button
+              type="button"
+              onClick={() => setContactState(false)}
+              className="bg-[#DB3232] py-3 px-5 rounded-md montserrat font-bold w-[30%]"
+            >
               Close
             </button>
           </div>
@@ -115,7 +120,8 @@ function Contact() {
         </div>
         <div className="flex flex-col gap-8 py-16 w-full px-5">
           <label className="flex flex-col montserrat font-bold">
-            Email: <input
+            Email:{" "}
+            <input
               type="email"
               name="email"
               placeholder="john@domain.com"
@@ -123,7 +129,8 @@ function Contact() {
             />
           </label>
           <label className="flex flex-col montserrat font-bold">
-            Message: <textarea
+            Message:{" "}
+            <textarea
               name="message"
               placeholder="Type your query here..."
               className="w-full h-[100px] py-3 px-2 text-black rounded-md"
@@ -136,7 +143,11 @@ function Contact() {
             >
               Send my message
             </button>
-            <button type="button" onClick={() => setContactState(false)} className="bg-[#DB3232] py-3 px-5 rounded-md montserrat font-bold w-[30%]">
+            <button
+              type="button"
+              onClick={() => setContactState(false)}
+              className="bg-[#DB3232] py-3 px-5 rounded-md montserrat font-bold w-[30%]"
+            >
               Close
             </button>
           </div>
