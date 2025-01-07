@@ -104,6 +104,7 @@ function Contact() {
         action="https://formspree.io/f/mzbqzaad"
         method="POST"
         className="flex md:hidden flex-col items-center bg-[#1A1A1A] rounded-3xl border-4"
+        onSubmit={handleSubmit}
       >
         <div className="flex gap-10 bg-black p-3 w-full rounded-t-3xl">
           <Image
@@ -126,6 +127,8 @@ function Contact() {
               name="email"
               placeholder="john@domain.com"
               className="py-3 px-2 text-black rounded-md"
+              value={formData.email}
+              onChange={handleChange}
             />
           </label>
           <label className="flex flex-col montserrat font-bold">
@@ -134,6 +137,8 @@ function Contact() {
               name="message"
               placeholder="Type your query here..."
               className="w-full h-[100px] py-3 px-2 text-black rounded-md"
+              value={formData.message}
+              onChange={handleChange}
             ></textarea>
           </label>
           <div className=" flex justify-between w-full">
